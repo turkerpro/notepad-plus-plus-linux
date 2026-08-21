@@ -1,52 +1,53 @@
 # Notepad++ for Linux (Native Qt Edition) 🦎
 
-Orijinal [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus) kaynak kodları, ikonları, renk temaları ve dil dosyaları referans alınarak Linux işletim sistemleri için geliştirilmiş, yüksek performanslı ve yerel (native) kod ve metin düzenleyici.
+A high-performance, native source code and text editor for Linux operating systems, inspired by and based on the official [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus) repository, featuring authentic icons, color themes, and multi-language support.
 
 ![Notepad++ Chameleon Logo](npp_linux/resources/icons/notepad-plus-plus.png)
 
 ---
 
-## 🌟 Öne Çıkan Özellikler
+## 🌟 Key Features
 
-### 📝 1. Gelişmiş Kod ve Metin Düzenleyici
-- **Özelleştirilmiş Sol Kenar (Gutter)**:
-  - Satır numaraları ve aktif satır vurgusu.
-  - **Yer İmleri (Bookmarks)**: Mavi parlak daire ikonları. Tıklayarak veya `Ctrl+F2` ile yer imi ekleme, `F2` / `Shift+F2` ile hızlı gezinme.
-  - **Kod Katlama (Folding)**: Fonksiyon, sınıf ve girintili blokları `[+]` ve `[-]` butonlarıyla açıp kapatma.
-- **Sözcük Kaydırma (Word Wrap)** ve **Girinti Kılavuzları (Indent Guides)**.
-- **Görünür Karakterler**: Boşluklar (nokta), Sekmeler (ok) ve Satır Sonu formatları (`[CRLF]`, `[LF]`).
-- **Hızlı Düzenleme Kısayolları**:
-  - Satırı Çoğalt: `Ctrl+D`
-  - Satırı Yukarı/Aşağı Taşı: `Ctrl+Shift+Yukarı` / `Ctrl+Shift+Aşağı`
-  - Geçerli Satırı Sil: `Ctrl+Shift+L`
-  - Yorum Satırı Yap / Kaldır: `Ctrl+K` veya `Ctrl+Q`
-  - Büyük Harf / Küçük Harf: `Ctrl+Shift+U` / `Ctrl+U`
-  - Satırları Sırala (A-Z) & Sondaki Boşlukları Temizle.
+### 📝 1. Advanced Code & Text Editor
+- **Custom Gutter & Margins**:
+  - Line numbers with active line highlighting.
+  - **Bookmarks**: Authentic blue spherical bookmark icons. Toggle by clicking the margin or pressing `Ctrl+F2`; navigate with `F2` (Next) / `Shift+F2` (Previous).
+  - **Code Folding**: Expand and collapse functions, classes, and indented blocks with `[+]` and `[-]` indicators.
+- **Word Wrap** & **Indentation Guides** (vertical dotted guidelines).
+- **Whitespace & EOL Symbols**: Display space dots, tab arrows, and line endings (`[CRLF]`, `[LF]`).
+- **Fast Editing Shortcuts**:
+  - Duplicate Line: `Ctrl+D`
+  - Move Line Up / Down: `Ctrl+Shift+Up` / `Ctrl+Shift+Down`
+  - Delete Current Line: `Ctrl+Shift+L`
+  - Toggle Line / Block Comment: `Ctrl+K` or `Ctrl+Q`
+  - Case Conversions: UPPERCASE (`Ctrl+Shift+U`), lowercase (`Ctrl+U`), Title Case
+  - Sort Lines (A-Z) & Trim Trailing Whitespace
+  - Matching Bracket Highlight (`()`, `[]`, `{}`) & Smart Word Highlighting
 
-### 📑 2. Çoklu Sekme ve Çift Görünüm (Dual View / Split Screen)
-- Orijinal Notepad++ Sekme Çubuğu:
-  - 💾 **Mavi Disket**: Kaydedilmiş dosya.
-  - 🔴 **Kırmızı Disket**: Değiştirilmiş / kaydedilmemiş dosya.
-  - 🔒 **Kilit Simgesi**: Salt okunur dosya.
-- **Sekme Menüsü & Kısayollar**: Orta tuşla kapatma, Diğerlerini Kapat, Sağdakileri/Soldakileri Kapat, Dosya Konumunu Aç, Dosya Yolunu Kopyala.
-- **Bölmeli Ekran (Split View)**:
-  - *Diğer Görünüme Taşı (Move to Other View)*
-  - *Diğer Görünüme Klonla (Clone to Other View - Eşzamanlı düzenleme)*
+### 📑 2. Multi-Tab Management & Dual View (Split Screen)
+- **Authentic Notepad++ Tab Bar**:
+  - 💾 **Blue Floppy Disk**: Saved document.
+  - 🔴 **Red Floppy Disk**: Modified / unsaved document.
+  - 🔒 **Lock Icon**: Read-only document.
+- **Tab Context Menu & Actions**: Middle-click to close, Close Others, Close to the Right / Left, Open Containing Folder, Copy File Path.
+- **Split Screen / Dual View**:
+  - *Move to Other View* (Horizontal / Vertical Split)
+  - *Clone to Other View* (Simultaneous synchronized dual editing)
 
-### 🔍 3. 4 Sekmeli Gelişmiş Arama & Değiştirme
-- **Bul (Find)**: `Ctrl+F` (Sonraki `F3`, Önceki `Shift+F3`, Sayma)
-- **Değiştir (Replace)**: `Ctrl+H` (Tekli Değiştir, Tümünü Değiştir)
-- **Dosyalarda Bul (Find in Files)**: `Ctrl+Shift+F` (Klasörde filtreli ve alt dizinli arama)
-- **İşaretle (Mark)**: Eşleşen sözcükleri tüm belgede fosforlu renklerle işaretleme.
-- **Arama Modları**: Normal, Genişletilmiş (`\n`, `\r`, `\t`, `\0`), Düzenli İfade (Regex).
+### 🔍 3. 4-Tab Advanced Find & Replace
+- **Find**: `Ctrl+F` (Find Next `F3`, Find Prev `Shift+F3`, Count occurrences)
+- **Replace**: `Ctrl+H` (Replace Single, Replace All)
+- **Find in Files**: `Ctrl+Shift+F` (Directory-wide recursive search with file filters e.g. `*.py;*.cpp;*.txt`, results panel)
+- **Mark**: Highlight all occurrences across the document with customizable highlighter overlay.
+- **Search Modes**: Normal, Extended (`\n`, `\r`, `\t`, `\0`), and Regular Expression (Regex).
 
-### 🌐 4. Karakter Kodlaması ve EOL Dönüştürücü
-- Otomatik Kodlama Algılama (`UTF-8`, `UTF-8 with BOM`, `Turkish Windows-1254`, `ISO-8859-9`, `UTF-16 LE/BE`, `ANSI`, `ASCII`).
-- Canlı Satır Sonu Dönüştürücü: `Windows (CR LF)` ⮀ `Unix (LF)` ⮀ `Macintosh (CR)`.
-- 6 Bölmeli Durum Çubuğu (Satır/Sütun/Seçim, Uzunluk/Satır Sayısı, EOL, Kodlama, Dil, INS/OVR).
+### 🌐 4. Encoding & Line Ending Conversion
+- **Automatic Encoding Detection** via `chardet` (`UTF-8`, `UTF-8 with BOM`, `Turkish Windows-1254`, `ISO-8859-9`, `UTF-16 LE/BE`, `ANSI`, `ASCII`, etc.).
+- **Live Line Ending Converter**: `Windows (CR LF)` ⮀ `Unix (LF)` ⮀ `Macintosh (CR)`.
+- **6-Panel Status Bar**: Position (Ln/Col/Sel), Length/Line Count, EOL Format, Encoding, Language, INS/OVR Mode.
 
-### 🎨 5. Temalar ve Stil Yapılandırıcı (Style Configurator)
-- Orijinal Notepad++ Temaları:
+### 🎨 5. Themes & Style Configurator
+- **Official Notepad++ Themes**:
   - `Classic Default`
   - `DarkModeDefault`
   - `Monokai`
@@ -54,80 +55,92 @@ Orijinal [Notepad++](https://github.com/notepad-plus-plus/notepad-plus-plus) kay
   - `Obsidian`
   - `Zenburn`
   - `Deep Black`
-- Karanlık Mod Arayüzü (Koyu gri araç çubuğu, sekmeler ve menüler).
-- Monospace yazı tipi ve boyut ayarları.
+- **Dark Mode UI**: Sleek dark toolbars, tabs, menus, and status bar.
+- Custom Monospace font family and font size selection.
 
-### 📌 6. Yan Paneller (Dock Widgets)
-- **Belge Haritası (Document Map / Minimap)**: Gerçek zamanlı küçük harita ve tıklanabilir kaydırma.
-- **Fonksiyon Listesi (Function List)**: Sınıf ve fonksiyonları ağaç görünümünde listeleme ve çift tıklamayla satıra atlama.
-- **Çalışma Alanı Dosya Tarayıcısı (Folder as Workspace)**: Proje klasörünü ağaç yapısında yönetme.
-- **Arama Sonuçları Paneli**: Dosyalarda bul sonuçları için alt panel.
+### 📌 6. Dock Panels
+- **Document Map (Minimap)**: Real-time miniature code overview with interactive viewport slider.
+- **Function List**: Tree view of classes, methods, and functions with instant jump-to-line on double-click.
+- **Folder as Workspace / File Browser**: Project workspace tree explorer.
+- **Search Results Panel**: Docked results output with clickable file paths and line snippets.
 
-### ⚡ 7. Makro ve Harici Komut Çalıştırma
-- **Makro Motoru**: Kaydet (`Ctrl+Shift+R`), Durdur (`Ctrl+Shift+S`), Oynat (`Ctrl+Shift+P`), Çok Kez Çalıştır.
-- **Harici Çalıştırma**: Python, Bash ve web sayfalarını doğrudan çalıştırma (`F5`).
+### ⚡ 7. Macro Engine & External Run
+- **Macro Engine**: Start Recording (`Ctrl+Shift+R`), Stop Recording (`Ctrl+Shift+S`), Playback (`Ctrl+Shift+P`), Run Multiple Times.
+- **Run External Commands**: Run Python, Bash scripts, or open in browser with `F5`.
 
 ---
 
-## 🚀 Kurulum ve Çalıştırma
+## 🚀 Installation & Usage
 
-### Gereksinimler
+### Prerequisites
 - Python 3.8+
 - PyQt5
 - Pygments
 - chardet
 - Pillow
 
-Ubuntu / Debian sistemlerde:
+On Ubuntu / Debian:
 ```bash
 sudo apt update
 sudo apt install python3-pyqt5 python3-pygments python3-chardet python3-pil
 ```
 
-### Kurulum:
+### Installation
 ```bash
-# Depoyu klonlayın:
+# Clone the repository:
 git clone https://github.com/turkerpro/notepad-plus-plus-linux.git
 cd notepad-plus-plus-linux
 
-# Kurulum betiğini çalıştırın:
+# Run the installation script:
 ./install.sh
 ```
 
-### Başlatma:
+### Launching Notepad++
 ```bash
-# Terminalden:
+# From terminal:
 notepad-plus-plus
-# veya
+# or using the shortcut:
 npp
 
-# Belirli bir dosyayı açmak için:
-npp dosya.py
+# Open specific files:
+npp main.py
 
-# Belirli bir satırdan açmak için:
-npp -n 42 dosya.py
+# Open a file at a specific line number:
+npp -n 42 main.py
 ```
+You can also launch Notepad++ directly from your desktop **Applications Menu**.
 
 ---
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 notepad-plus-plus-linux/
 ├── npp_linux/
-│   ├── core/              # Düzenleyici, Kodlama, Sözdizimi, Makro, Belge ve Oturum
-│   ├── ui/                # Ana Pencere, Sekmeler, Araç Çubuğu, Durum Çubuğu, Arama, Yan Paneller
-│   ├── resources/         # Orijinal NPP İkonları, XML Temaları, Türkçe/İngilizce Dil Tanımları
-│   └── styles/            # Koyu/Açık Tema ve QSS Şablonları
+│   ├── core/              # Editor, Encoding, Highlighter, Macro, Document & Session
+│   ├── ui/                # Main Window, Tabs, Toolbars, Status Bar, Search, Dock Panels
+│   ├── resources/         # Official NPP Icons, XML Themes, Localization files
+│   └── styles/            # Dark / Light UI Stylesheets and Themes
 ├── bin/
-│   └── notepad-plus-plus  # Çalıştırılabilir Binary / Betik
-├── tests/                 # Kapsamlı Birim ve Entegrasyon Testleri
-├── install.sh             # Masaüstü ve Sistem Entegrasyon Betiği
-└── notepad-plus-plus.desktop # Linux Uygulamalar Menüsü Başlatıcısı
+│   └── notepad-plus-plus  # Executable Launcher Script
+├── tests/                 # Unit & Integration Test Suite
+├── install.sh             # Desktop & System Integration Installer
+└── notepad-plus-plus.desktop # Linux Desktop Launcher Entry
 ```
 
 ---
 
-## ⚖️ Lisans
-Bu proje, orijinal Notepad++ projesi gibi **GNU General Public License v3** altında sunulmaktadır.
-Orijinal Notepad++ telif hakları Don HO <don.h@free.fr> ve Notepad++ katkıcılarına aittir.
+## 🧪 Running Tests
+
+To run the automated test suite:
+```bash
+export PYTHONPATH=".:$PYTHONPATH"
+python3 -m unittest discover -s tests -p "test_*.py" -v
+```
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **GNU General Public License v3** (GPLv3), in alignment with the original Notepad++ project.
+Original Notepad++ Copyright (C) Don HO <don.h@free.fr> and Notepad++ contributors.
